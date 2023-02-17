@@ -72,7 +72,7 @@ nav{
   opacity: 0.9;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   max-width: 70vw;
-
+  border-radius: 3px;
 }
 
 a{
@@ -133,11 +133,6 @@ main{
   color: white;
 }
 
-.white{
-  padding: 2rem;
-  max-width: 90vw;
-  margin: 0 auto;
-}
 
 .txt{
   width: 800px;
