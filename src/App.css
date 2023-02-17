@@ -54,6 +54,7 @@ nav{
   width: 100vw;
   background-color: rgba(59, 74, 105, 0.8);
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
