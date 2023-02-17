@@ -7,7 +7,7 @@ import Booking from './components/Booking';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import logo from './navlogo.png'
+import logo from './images/uphill.png'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       </header>
       <main>
         <div id='head-img'>
-          <img id='nav-logo' src={logo} alt='logo' />
+          <img  id='nav-logo' src={logo} alt='logo' />
 
         </div>
 
