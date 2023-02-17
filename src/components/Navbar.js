@@ -6,7 +6,7 @@ import insta from '../insta.png'
 export default function Navbar() {
   return (
     <nav>   
-        <div>
+        <div style={{display:'flex', flexWrap:'wrap'}}>
             <a href='#about'>About</a>
             <a href='#prices'>Prices</a>
             <a href='#bookings'>Bookings</a>
