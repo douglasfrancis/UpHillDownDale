@@ -2,37 +2,157 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: Simple;
+  src: url(./fonts/simple_thread/simpleThread.otf);
+  font-display: fallback;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#header-title{
+  font-family: Simple;
+  color: #a0914ee9;
+  letter-spacing: 3px;
 }
 
-.App-header {
-  background-color: #282c34;
+*{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+nav{
+  height: 75px;
+  width: 100vw;
+  background-color: rgba(59, 74, 105, 0.8);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: fixed;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+
+}
+
+#about *{
+  color: #1e1e1e;
+}
+
+#nav-logo{
+  height: 50px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+a{
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin: 0 0.7rem;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#cloud{
+  width: 100vw;
+  height: 80vh;
+  object-position: center;
+  object-fit: cover;
+}
+
+.divider{
+  height: 7px;
+  background-color: #a99c65;
+  margin: 0;
+
+}
+
+.img{
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+.flexwrap-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+main{
   min-height: 100vh;
+}
+
+.blue{
+  background-color: #3b4a69;
+  padding: 2rem;
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.white{
+  padding: 2rem;
+  max-width: 90vw;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.txt{
+  width: 800px;
+  margin: 2rem;
+  font-size: 1.1rem;
+  line-height: 25px;
+  text-align: left;
+}
+
+.white h1, .blue h1{
+font-size: 1.1rem;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.social-icon{
+  height: 30px;
+  margin: 0 0.5rem;
+}
+td{
+  color: white;
+  padding: 10px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+th{
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+
+}
+
+footer{
+  height: 150px;
+  background-color: #3b4a69;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#bookings{
+  
 }
