@@ -34,7 +34,7 @@ export default function Contact() {
           <option>Taxi Service</option>
           <option>Walking</option>
         </select>
-        <textarea ref={msgRef}></textarea>
+        <textarea ref={msgRef} placeholder="Message"></textarea>
         <button id='submit-btn' type='submit'>Submit</button>
       </form>
     </div>

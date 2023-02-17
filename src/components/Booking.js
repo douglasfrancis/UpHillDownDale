@@ -4,11 +4,12 @@ import fire from '../images/Bethimage.jpg'
 export default function Booking() {
   return (
     <div id='bookings' className='white'>
-      <h1>Bookings</h1>
+      
       <div className='flexwrap-container'>
         <img className='img' src={fire} alt="Dog in front of fire"/>
-        <p className='txt'>
-                To enquire about a booking please contact via
+        <div className='txt'>
+        <h1>Bookings</h1>
+                <p>To enquire about a booking please contact via
           Phone: 07759883947
           Email: uphillndowndale@gmail.com
           Facebook or Facebook Messenger Up Hill ‘n Down Dale
@@ -24,6 +25,7 @@ export default function Booking() {
           stay and the rest in full on your dogs departure.
           Doggie Day Care is payable on the day either when you drop off or pick up. For regular bookings
           payment is kindly requested a month in advance.</p>
+        </div>
       </div>
      
     </div>
