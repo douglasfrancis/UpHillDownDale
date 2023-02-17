@@ -4,7 +4,7 @@ import about from '../images/about.jpg'
 export default function About() {
   return (
     <div id='about' className='white'>
-      <h1>ABOUT</h1>
+      <h1 style={{color:'#3b4a69'}}>ABOUT</h1>
 
       <div className='flexwrap-container'>
         <img className='img' src={about} alt="Beth and Me" />

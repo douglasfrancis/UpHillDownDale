@@ -17,9 +17,10 @@ function App() {
 
       </header>
       <main>
-        <img id='cloud' src={cloud} alt='Bosley Cloud'/>
+        <div id='head-img'>
+          <img id='nav-logo' src={logo} alt='logo' />
 
-    
+        </div>
 
         <div className='divider' />
 

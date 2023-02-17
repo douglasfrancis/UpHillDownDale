@@ -8,18 +8,41 @@
   font-display: fallback;
 }
 
+@font-face {
+  font-family: Gotham;
+  src: url(./fonts/Gotham-Light.otf);
+  font-display: fallback;
+}
+
 #header-title{
   font-family: Simple;
   color: #a0914ee9;
   letter-spacing: 3px;
 }
 
+#head-img{
+  background-image: url('./cloud.jpeg');
+  height: 90vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .white h1{
   color: #3b4a69;
 }
 
+h1{
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
 *{
   box-sizing: border-box;
+  font-family: Gotham ;
 }
 
 html{
@@ -45,10 +68,8 @@ nav{
 }
 
 #nav-logo{
-  height: 50px;
-  position: absolute;
-  top: 30%;
-  left: 50%;
+  
+  opacity: 0.9;
 }
 
 a{
