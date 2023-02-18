@@ -152,24 +152,7 @@ text-transform: uppercase;
   margin: 0 0.5rem;
 }
 
-table{
-  max-width: 100vw;
-}
 
-td{
-  color: white;
-  padding: 10px;
-  text-align: left;
-  font-size: 1.2rem;
-}
-
-th{
-  color: white;
-  font-weight: bold;
-  text-align: left;
-  padding: 10px;
-
-}
 
 footer{
   height: 150px;
@@ -181,3 +164,15 @@ footer{
   color: white;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .social-icon{
+    display: none;
+  }
+  a{
+    margin: 0.7rem;
+  }
+  nav{
+    justify-content: center;
+  }
+}

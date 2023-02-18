@@ -2,3 +2,28 @@
 .cost{
     text-align: right;
 }
+table{
+    max-width: 100%;
+  }
+  
+  td{
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  
+  th{
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  
+  }
+
+@media only screen and (max-width: 600px) {
+    td{
+        font-size: 0.8rem;
+
+    }
+  }
