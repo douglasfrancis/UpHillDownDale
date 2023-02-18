@@ -44,3 +44,11 @@ textarea{
     border: none;
     border-radius: 3px;
 }
+
+#consent{
+    font-size: 12px; 
+    width: 500px; 
+    max-width: 90vw;
+    margin: 0 auto; 
+    text-align: left;
+}

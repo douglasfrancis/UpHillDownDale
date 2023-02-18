@@ -54,6 +54,7 @@ export default function Contact() {
         <textarea ref={msgRef} placeholder="Message" name='Msg'></textarea>
         <button id='submit-btn' type='submit' disabled={loading}>{loading ? "Sending..." : "Submit"}</button>
       </form>
+      <p id='consent'>By submitting this form, I consent to Up Hill 'n' Down Dale storing the above information to contact me regarding any services offered by Up HIll 'n' Down Dale.</p>
     </div>
   )
 }
