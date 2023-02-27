@@ -8,6 +8,7 @@ export default function Contact() {
     const formRef = useRef();
     const nameRef = useRef();
     const emailRef = useRef();
+    const breedRef = useRef();
     const numberRef = useRef();
     const serviceRef = useRef();
     const msgRef = useRef();
@@ -17,7 +18,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    if(!nameRef.current.value || !numberRef.current.value || !emailRef.current.value || !msgRef.current.value  ){
+    if(!nameRef.current.value || !numberRef.current.value || !emailRef.current.value || !msgRef.current.value || !breedRef.current.value ){
       toast.error("Please fill in all required fields")
     } else {
       setLoading(true)
@@ -41,6 +42,7 @@ export default function Contact() {
         <input placeholder='Name' ref={nameRef} name='Name'/>
         <input placeholder='Number' ref={numberRef} name='Number'/>
         <input placeholder='Email Address' ref={emailRef} name='Email'/>
+        <input placeholder='Dog Breed' ref={breedRef} name='Breed'/>
         <select ref={serviceRef} name='Service'>
           <option>Service Interested In</option>
           <option>Doggie Day Care</option>
