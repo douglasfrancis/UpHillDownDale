@@ -22,6 +22,7 @@ function App() {
       <main>
         <div id='head-img'>
           <img  id='nav-logo' src={logo} alt='logo' />
+          <div id='gradient' />
 
         </div>
 
