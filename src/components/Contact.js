@@ -38,6 +38,9 @@ export default function Contact() {
     <div id='contact' className='white'>
       <h1>Contact</h1>
 
+      <p>For Home Visits and Walking, please contact Carol 07551362214.</p>
+      <p>All other enquiries, please fill in the form below and we will get back to you as soon as possible.</p>
+
       <form ref={formRef} onSubmit={sendEmail}>
         <input placeholder='Name' ref={nameRef} name='Name'/>
         <input placeholder='Number' ref={numberRef} name='Number'/>
@@ -47,6 +50,7 @@ export default function Contact() {
           <option>Service Interested In</option>
           <option>Doggie Day Care</option>
           <option>Part Day Care</option>
+          <option>Home Visits</option>
           <option>Overnight Stays</option>
           <option>24hr Stays</option>
           <option>Weekly Stays</option>

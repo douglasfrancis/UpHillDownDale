@@ -22,6 +22,11 @@ export default function Prices() {
           <td className='cost'>£15</td>
         </tr>
         <tr>
+          <td>Home Visits</td>
+          <td>Feed, fuss and fresh water</td>
+          <td className='cost'>£10</td>
+        </tr>
+        <tr>
           <td>Overnight stays</td>
           <td>6pm - 8am (Includes 1 evening walk)</td>
           <td className='cost'>£25</td>
