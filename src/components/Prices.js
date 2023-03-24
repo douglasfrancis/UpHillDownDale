@@ -23,7 +23,7 @@ export default function Prices() {
         </tr>
         <tr>
           <td>Home Visits</td>
-          <td>Feed, fuss and fresh water</td>
+          <td>Feed, fuss and fresh water (30 mins)</td>
           <td className='cost'>£10</td>
         </tr>
         <tr>
