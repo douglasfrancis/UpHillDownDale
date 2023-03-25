@@ -49,7 +49,7 @@ export default function Prices() {
         <tr>
           <td>Walking</td>
           <td>30min/60min</td>
-          <td className='cost'>£7.50/£13.50</td>
+          <td className='cost'>£7.50/£14</td>
         </tr>
       </table>
 

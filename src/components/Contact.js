@@ -38,7 +38,7 @@ export default function Contact() {
     <div id='contact' className='white'>
       <h1>Contact</h1>
 
-      <p>For Home Visits and Walking, please contact Carol 07551362214.</p>
+      <p>For Home Visits and Walking, please contact Angelina on 07904 031329.</p>
       <p>All other enquiries, please fill in the form below and we will get back to you as soon as possible.</p>
 
       <form ref={formRef} onSubmit={sendEmail}>
