@@ -38,7 +38,7 @@ export default function Contact() {
     <div id='contact' className='white'>
       <h1>Contact</h1>
 
-      <p>For Home Visits and Walking, please contact Angelina on 07904 031329.</p>
+      <p>For home visits and dog walking, we have teamed up with <a href='https://woodland-walks.co.uk' style={{fontWeight:'bold', color: '#3b4a69', fontSize: '0.9rem', textDecoration:'underline'}} target="_blank">Woodland Walks Congleton</a></p>
       <p>All other enquiries, please fill in the form below and we will get back to you as soon as possible.</p>
 
       <form ref={formRef} onSubmit={sendEmail}>
