@@ -22,7 +22,7 @@ export default function Booking() {
               requirements and vaccinations.
               Written consent forms while your dog is staying at Up Hill ‘n’ Down Dale.
               I also request that a 50% deposit is paid on booking to secure a place for home boarding for a weekly
-              stay and the rest in full on your dogs departure.
+              stay and the rest in full on your dogs arrival/drop off.
               Doggie Day Care is payable on the day either when you drop off or pick up. For regular bookings
               payment is kindly requested a month in advance.
             </p>
