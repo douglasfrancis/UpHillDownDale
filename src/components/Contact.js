@@ -49,12 +49,10 @@ export default function Contact() {
           <option>Service Interested In</option>
           <option>Doggie Day Care</option>
           <option>Part Day Care</option>
-          <option>Home Visits</option>
           <option>Overnight Stays</option>
           <option>24hr Stays</option>
           <option>Weekly Stays</option>
           <option>Taxi Service</option>
-          <option>Walking</option>
         </select>
         <textarea ref={msgRef} placeholder="Message" name='Msg'></textarea>
         <button id='submit-btn' type='submit' disabled={loading}>{loading ? "Sending..." : "Submit"}</button>
