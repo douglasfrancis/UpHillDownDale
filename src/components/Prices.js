@@ -21,11 +21,11 @@ export default function Prices() {
           <td>6 hours or less (Mon-Fri Includes 1 walk)</td>
           <td className='cost'>£15</td>
         </tr>
-        <tr>
+       {/* <tr>
           <td>Home Visits</td>
           <td>Feed, fuss and fresh water (30 mins)</td>
           <td className='cost'>£10</td>
-        </tr>
+  </tr>*/}
         <tr>
           <td>Overnight trial</td>
           <td>Trial night before official stay</td>
@@ -49,13 +49,13 @@ export default function Prices() {
         <tr>
           <td>Taxi Service</td>
           <td>Return to and from local appointments (vet, groomers etc)</td>
-          <td className='cost'>£30</td>
+          <td className='cost'>45p per mile</td>
         </tr>
-        <tr>
+      {/*  <tr>
           <td>Walking</td>
           <td>30min/60min</td>
           <td className='cost'>£7.50/£14</td>
-        </tr>
+  </tr>*/}
       </table>
 
       <h3>Methods of payment</h3>

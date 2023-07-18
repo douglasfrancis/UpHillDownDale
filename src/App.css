@@ -63,7 +63,7 @@ html{
 nav{
   height: 75px;
   width: 100vw;
-  background-color: rgba(59, 74, 105, 0.8);
+  background-color: rgba(59, 74, 105, 0.9);
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
