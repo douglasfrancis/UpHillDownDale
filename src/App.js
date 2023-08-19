@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import cloud from './cloud.jpeg'
+import dog from './images/dog.mp4'
 import About from './components/About';
 import Prices from './components/Prices';
 import Booking from './components/Booking';
@@ -20,29 +20,30 @@ function App() {
 
       </header>
       <main>
-        <div id='head-img'>
-          <img  id='nav-logo' src={logo} alt='logo' />
-          <div id='gradient' />
+        <div id='hero'>
+          
+          <video id='horse-vid' autoPlay muted loop playsInline controls={false}>
+                  <source src={dog} type="video/mp4"/>
+                  Your browser does not support the video tag.
+                  
+          </video>
+          <div id='gradient'>
+            <img id='hero-logo' src={logo}/>
+          </div>
 
         </div>
 
-        <div className='divider' />
 
         <About />
-        <div className='divider' />
 
         <Prices />
-        <div className='divider' />
 
         <Booking />
 
-        <div className='divider' />
 
         <Gallery />
-        <div className='divider' />
 
         <Contact />
-        <div className='divider' />
 
       </main>
       <Footer />
