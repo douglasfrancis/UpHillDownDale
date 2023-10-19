@@ -18,8 +18,13 @@ export default function Prices() {
         </tr>
         <tr>
           <td>Part Day Care</td>
-          <td>6 hours or less (Mon-Fri Includes 1 walk)</td>
+          <td>3 hours or less (Mon-Fri Includes 1 walk)</td>
           <td className='cost'>£15</td>
+        </tr>
+        <tr>
+          <td>Part Day Care</td>
+          <td>3 - 6 hours (Mon-Fri Includes 1 walk)</td>
+          <td className='cost'>£20</td>
         </tr>
        {/* <tr>
           <td>Home Visits</td>
