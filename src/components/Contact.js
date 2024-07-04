@@ -2,6 +2,7 @@ import React, { useRef, useState} from 'react'
 import './Contact.css'
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify'
+import axios from 'axios'
 
 export default function Contact() {
 
@@ -22,15 +23,25 @@ export default function Contact() {
       toast.error("Please fill in all required fields")
     } else {
       setLoading(true)
-      emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, formRef.current, process.env.REACT_APP_PUBLIC_KEY)
-      .then((result) => {
-          formRef.current.reset();
-          toast.success("Sent Successfully")
-          setLoading(false)
-      }, (error) => {
-          toast.error("Oops, something went wrong")
-          setLoading(false)
-      });
+
+      axios.post(`${process.env.REACT_APP_API_URL}/uphill/contact`,
+      {
+        name: nameRef.current.value,
+        email: emailRef.current.value,
+        breed: breedRef.current.value,
+        number: numberRef.current.value,
+        service: serviceRef.current.value,
+        msg: msgRef.current.value
+      })
+      .then(() => {
+        toast.success("Sent Successfully")
+        setLoading(false)
+        formRef.current.reset()
+      })
+      .catch(() => {
+        toast.error("Oops, something went wrong")
+        setLoading(false)
+      })
     }
   };
 

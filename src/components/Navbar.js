@@ -12,7 +12,6 @@ export default function Navbar() {
             <a href='#bookings'>Bookings</a>
             <a href='#gallery'>Gallery</a>
             <a href='#contact'>Contact</a>
-  
         </div>
 
 
@@ -20,7 +19,6 @@ export default function Navbar() {
         <div id='socials'>
           <a href='https://www.facebook.com' target='_blank'><img className='social-icon' src={facebook} alt='facebook'/></a>
           <a href='https://www.instagram.com' target='_blank'><img className='social-icon' src={insta} alt='instagram'/></a>
-
         </div>
     </nav>
   )
